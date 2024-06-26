@@ -3,22 +3,22 @@ package atividadeJava;
 import java.util.Scanner;
 public class Atividade02java {
 
-	public class VerifDivisibilidade {
+	public class VerificadorDivisivel {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite um número:");
+	        System.out.println("Digite um nï¿½mero:");
 	        int numero = scanner.nextInt();
 
 	        if (numero % 10 == 0) {
-	            System.out.println("O número é divisível por 10");
+	            System.out.println("O nï¿½mero ï¿½ divisï¿½vel por 10");
 	        } else if (numero % 5 == 0) {
-	            System.out.println("O número é divisível por 5");
+	            System.out.println("O nï¿½mero ï¿½ divisï¿½vel por 5");
 	        } else if (numero % 2 == 0) {
-	            System.out.println("O número é divisível por 2");
+	            System.out.println("O nï¿½mero ï¿½ divisï¿½vel por 2");
 	        } else {
-	            System.out.println("O número não é divisível por 10, 5 ou 2");
+	            System.out.println("O nï¿½mero nï¿½o ï¿½ divisï¿½vel por 10, 5 ou 2");
 	        }
 	    }
 	}

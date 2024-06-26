@@ -3,12 +3,12 @@ package atividadeJava;
 import java.util.Scanner;
 public class Atividade03Java {
 
-	public class CrediEspecial {
+	public class Credito {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite o saldo médio do último ano:");
+	        System.out.println("Digite o saldo mï¿½dio do ï¿½ltimo ano:");
 	        double saldoMedio = scanner.nextDouble();
 	        double credito;
 
@@ -22,8 +22,8 @@ public class Atividade03Java {
 	            credito = saldoMedio * 0.4;
 	        }
 
-	        System.out.println("Saldo médio: " + saldoMedio);
-	        System.out.println("Valor do crédito: " + credito);
+	        System.out.println("Saldo mï¿½dio: " + saldoMedio);
+	        System.out.println("Valor do crï¿½dito: " + credito);
 	    }
 	}
 
