@@ -21,7 +21,7 @@ public class Atividade01Java {
 	        System.out.println("Escolha a bebida (1.Cha" + \n " 2.Suco de laranja" + \n " 3.Suco de melao" + \n " 4-Refrigerante diet): ");
 	        int bebida = scanner.nextInt();
 
-	        int totalCalorias = CalPrato = 0 + CalSobremesas = 0 + CalBebida = 0;
+	        int TotalCal = CalPrato = 0 + CalSobremesas = 0 + CalBebida = 0;
 
 	        
         switch (prato) {
@@ -41,40 +41,39 @@ public class Atividade01Java {
 
         switch (sobremesa) {
             case 1:
-                caloriasSobremesa = 75;
+                CalSobremesas = 75;
                 break;
             case 2:
-                caloriasSobremesa = 110;
+                CalSobremesas = 110;
                 break;
             case 3:
-                caloriasSobremesa = 170;
+                CalSobremesas = 170;
                 break;
             case 4:
-                caloriasSobremesa = 200;
+                CalSobremesas = 200;
                 break;
         }
 
         switch (bebida) {
             case 1:
-                caloriasBebida = 20;
+                CalBebida = 20;
                 break;
             case 2:
-                caloriasBebida = 70;
+                CalBebida = 70;
                 break;
             case 3:
-                caloriasBebida = 100;
+                CalBebida = 100;
                 break;
             case 4:
-                caloriasBebida = 65;
+                CalBebida = 65;
                 break;
         }
 
-        int totalCalorias = CalPrato + caloriasSobremesa + caloriasBebida;
+        TotalCal = CalPrato + CalSobremesa + CalBebida;
 
-        System.out.println("Calorias totais da refeiçăo: " + totalCalorias);
+        System.out.println("Calorias totais da refeiçăo: " + TotalCal);
 
 	}
 	    }
 	}
 
-}
