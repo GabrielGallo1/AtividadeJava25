@@ -8,13 +8,13 @@ public class Atividade11Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite o nome do vendedor:");
+	        System.out.println("Digite o nome do vendedor: ");
 	        String nome = scanner.nextLine();
 
-	        System.out.println("Digite o salário fixo:");
+	        System.out.println("Digite o salario fixo: ");
 	        double salarioFixo = scanner.nextDouble();
 
-	        System.out.println("Digite o total de vendas efetuadas no mês:");
+	        System.out.println("Digite o total de vendas efetuadas no mes: ");
 	        double vendas = scanner.nextDouble();
 
 	        double comissao = vendas * 0.15;

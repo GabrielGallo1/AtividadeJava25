@@ -9,12 +9,12 @@ public class Atividade15Java {
 	        
 	        int soma = 0;
 	        for (int i = 0; i < 20; i++) {
-	            System.out.println("Digite a idade:");
+	            System.out.println("Digite a idade: ");
 	            int idade = scanner.nextInt();
 	            soma += idade;
 	        }
 	        
-	        System.out.println("A soma das idades é: " + soma);
+	        System.out.println("A soma das idades e: " + soma);
 	        
 	        scanner.close();
 	    }

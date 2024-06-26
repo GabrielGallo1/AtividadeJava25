@@ -9,14 +9,14 @@ public class Atividade20Java {
 	        
 	        int contador = 0;
 	        for (int i = 0; i < 20; i++) {
-	            System.out.println("Digite um número:");
+	            System.out.println("Digite um numero: ");
 	            int numero = scanner.nextInt();
 	            if (numero > 8) {
 	                contador++;
 	            }
 	        }
 	        
-	        System.out.println("Quantidade de números maiores que 8: " + contador);
+	        System.out.println("Quantidade de numeros maiores que 8: " + contador);
 	        
 	        scanner.close();
 	    }

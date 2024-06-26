@@ -9,16 +9,15 @@ public class Atividade24Java {
 	        
 	        int soma = 0;
 	        while (true) {
-	            System.out.println("Digite um número:");
-	            int numero = scanner.nextInt();
-	            if (numero < 0) {
+	            System.out.println("Digite um numero:");
+	            int num = scanner.nextInt();
+	            if (num < 0) {
 	                break;
 	            }
-	            soma += numero;
+	            soma += num;
 	        }
 	        
-	        System.out.println("Soma dos números: " + soma);
-	        
+	        System.out.println("Soma dos numeros: " + soma);
 	        scanner.close();
 	    }
 	}

@@ -8,7 +8,7 @@ public class Atividade06Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite um número:");
+	        System.out.println("Digite um numero: ");
 	        int numero = scanner.nextInt();
 
 	        System.out.println("Antecessor: " + (numero - 1));

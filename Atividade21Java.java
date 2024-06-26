@@ -7,12 +7,12 @@ public class Atividade21Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        
-	        System.out.println("Digite o valor da compra:");
-	        double valorCompra = scanner.nextDouble();
+	        System.out.println("Digite o valor da CP: ");
+	        double VCP = scanner.nextDouble();
 	        
-	        double valorPrestacao = valorCompra / 5;
+	        double VPrestacao = VCP / 5;
 	        
-	        System.out.println("Valor de cada prestação: " + valorPrestacao);
+	        System.out.println("Valor de cada prestacao: " + VPrestacao);
 	        
 	        scanner.close();
 	    }

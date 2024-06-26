@@ -13,10 +13,10 @@ public class Atividade07java {
 	        double somaMedias = media1 + media2;
 	        double mediaDasMedias = somaMedias / 2;
 
-	        System.out.println("Média dos números 8, 9 e 7: " + media1);
-	        System.out.println("Média dos números 4, 5 e 6: " + media2);
-	        System.out.println("Soma das duas médias: " + somaMedias);
-	        System.out.println("Média das médias: " + mediaDasMedias);
+	        System.out.println("Media dos numeros 8, 9 e 7: " + media1);
+	        System.out.println("Media dos numeros 4, 5 e 6: " + media2);
+	        System.out.println("Soma das duas medias: " + somaMedias);
+	        System.out.println("Media das medias: " + mediaDasMedias);
 	    }
 
 	    public static double calcularMedia(int[] numeros) {

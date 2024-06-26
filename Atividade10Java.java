@@ -8,7 +8,7 @@ public class Atividade10Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite o saldo:");
+	        System.out.println("Digite o saldo: ");
 	        double saldo = scanner.nextDouble();
 
 	        double saldoReajustado = saldo * 1.015;

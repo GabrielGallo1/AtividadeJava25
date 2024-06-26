@@ -9,12 +9,12 @@ public class Atividade14Java {
 	        
 	        int soma = 0;
 	        for (int i = 0; i < 10; i++) {
-	            System.out.println("Digite um número:");
+	            System.out.println("Digite um numero: ");
 	            int numero = scanner.nextInt();
 	            soma += numero;
 	        }
 	        
-	        System.out.println("A soma dos 10 números é: " + soma);
+	        System.out.println("A soma dos 10 numeros e: " + soma);
 	        
 	        scanner.close();
 	    }

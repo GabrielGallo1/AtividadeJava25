@@ -9,14 +9,14 @@ public class Atividade16Java {
 	        
 	        int soma = 0;
 	        for (int i = 0; i < 20; i++) {
-	            System.out.println("Digite a idade:");
+	            System.out.println("Digite a idade: ");
 	            int idade = scanner.nextInt();
 	            soma += idade;
 	        }
 	        
 	        double media = soma / 20.0;
 	        
-	        System.out.println("A média das idades é: " + media);
+	        System.out.println("A media das idades e: " + media);
 	        
 	        scanner.close();
 	    }

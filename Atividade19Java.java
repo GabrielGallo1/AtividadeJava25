@@ -7,10 +7,10 @@ public class Atividade19Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        
-	        System.out.println("Digite a cotação do dólar:");
+	        System.out.println("Digite a cotacao do dolar: ");
 	        double cotacao = scanner.nextDouble();
 	        
-	        System.out.println("Digite a quantidade de dólares:");
+	        System.out.println("Digite a quantidade de dolares: ");
 	        double quantidade = scanner.nextDouble();
 	        
 	        double valorEmReais = cotacao * quantidade;

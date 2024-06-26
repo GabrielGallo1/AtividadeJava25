@@ -3,29 +3,29 @@ package atividadeJava;
 import java.util.Scanner;
 public class Atividade23Java {
 
-	public class NumerosEmIntervalos {
+	public class NumerosComIntervalos {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        
-	        int entre0e100 = 0;
-	        int entre101e200 = 0;
-	        int maioresQue200 = 0;
+	        int 0a100 = 0;
+	        int 101a200 = 0;
+	        int maiorQ200 = 0;
 	        
 	        for (int i = 0; i < 20; i++) {
-	            System.out.println("Digite um número:");
-	            int numero = scanner.nextInt();
-	            if (numero >= 0 && numero <= 100) {
-	                entre0e100++;
-	            } else if (numero >= 101 && numero <= 200) {
-	                entre101e200++;
-	            } else if (numero > 200) {
-	                maioresQue200++;
+	            System.out.println("Digite um Numero:");
+	            int Num = scanner.nextInt();
+	            if (Num >= 0 && Num <= 100) {
+	                0a100++;
+	            } else if (Num >= 101 && Num <= 200) {
+	                101a200++;
+	            } else if (Num > 200) {
+	                maiorQ200++;
 	            }
 	        }
 	        
-	        System.out.println("Quantidade de números entre 0 e 100: " + entre0e100);
-	        System.out.println("Quantidade de números entre 101 e 200: " + entre101e200);
-	        System.out.println("Quantidade de números maiores que 200: " + maioresQue200);
+	        System.out.println("Quantidade de numeros entre 0 e 100: " + 0a100);
+	        System.out.println("Quantidade de numeros entre 101 e 200: " + 101a200);
+	        System.out.println("Quantidade de numeros maiores que 200: " + maiorQ200);
 	        
 	        scanner.close();
 	    }

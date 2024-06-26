@@ -7,7 +7,7 @@ public class Atividade12Java {
 	        for (int i = 1; i <= 15; i++) {
 	            soma += i;
 	        }
-	        System.out.println("Soma dos números de 1 a 15: " + soma);
+	        System.out.println("Soma dos numeros de 1 a 15: " + soma);
 	    }
 	}
 

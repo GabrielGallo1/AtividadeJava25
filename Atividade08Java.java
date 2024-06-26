@@ -8,21 +8,21 @@ public class Atividade08Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite a porcentagem do IPI:");
+	        System.out.println("Digite a porcentagem do IPI: ");
 	        double ipi = scanner.nextDouble();
 
-	        System.out.println("Digite o código da peça 1:");
+	        System.out.println("Digite o codigo da peca 1: ");
 	        int codigoPeca1 = scanner.nextInt();
-	        System.out.println("Digite o valor unitário da peça 1:");
+	        System.out.println("Digite o valor unitario da peca 1: ");
 	        double valorPeca1 = scanner.nextDouble();
-	        System.out.println("Digite a quantidade da peça 1:");
+	        System.out.println("Digite a quantidade da peca 1: ");
 	        int quantidadePeca1 = scanner.nextInt();
 
-	        System.out.println("Digite o código da peça 2:");
+	        System.out.println("Digite o codigo da peca 2: ");
 	        int codigoPeca2 = scanner.nextInt();
-	        System.out.println("Digite o valor unitário da peça 2:");
+	        System.out.println("Digite o valor unitï¿½rio da peï¿½a 2:");
 	        double valorPeca2 = scanner.nextDouble();
-	        System.out.println("Digite a quantidade da peça 2:");
+	        System.out.println("Digite a quantidade da peï¿½a 2:");
 	        int quantidadePeca2 = scanner.nextInt();
 
 	        double valorTotal = (valorPeca1 * quantidadePeca1 + valorPeca2 * quantidadePeca2) * (ipi / 100 + 1);

@@ -8,7 +8,7 @@ public class Atividade03Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite o saldo m�dio do �ltimo ano:");
+	        System.out.println("Digite o saldo medio do ultimo ano: ");
 	        double saldoMedio = scanner.nextDouble();
 	        double credito;
 

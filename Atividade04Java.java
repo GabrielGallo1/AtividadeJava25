@@ -9,11 +9,11 @@ public class Atividade04Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        System.out.println("Digite o valor de A:");
+	        System.out.println("Digite o valor de A: ");
 	        int A = scanner.nextInt();
-	        System.out.println("Digite o valor de B:");
+	        System.out.println("Digite o valor de B: ");
 	        int B = scanner.nextInt();
-	        System.out.println("Digite o valor de C:");
+	        System.out.println("Digite o valor de C:" );
 	        int C = scanner.nextInt();
 
 	        int[] valores = {A, B, C};

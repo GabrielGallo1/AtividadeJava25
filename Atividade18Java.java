@@ -11,10 +11,10 @@ public class Atividade18Java {
 	        int idadeMaisNova = Integer.MAX_VALUE;
 	        
 	        for (int i = 0; i < 10; i++) {
-	            System.out.println("Digite o nome:");
+	            System.out.println("Digite o nome: ");
 	            String nome = scanner.next();
 	            
-	            System.out.println("Digite a idade:");
+	            System.out.println("Digite a idade: ");
 	            int idade = scanner.nextInt();
 	            
 	            if (idade < idadeMaisNova) {
@@ -23,7 +23,7 @@ public class Atividade18Java {
 	            }
 	        }
 	        
-	        System.out.println("A pessoa mais nova é: " + nomeMaisNovo);
+	        System.out.println("A pessoa mais nova e: " + nomeMaisNovo);
 	        
 	        scanner.close();
 	    }
