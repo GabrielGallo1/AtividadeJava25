@@ -23,7 +23,7 @@ public class Atividade01Java {
 
 	        int totalCalorias = caloriasPrato[prato - 1] + caloriasSobremesa[sobremesa - 1] + caloriasBebida[bebida - 1];
 
-	        System.out.println("A quantidade total de calorias da refei��o �: " + totalCalorias);
+	        System.out.println("A quantidade total de calorias da refeicao e: " + totalCalorias);
 	    }
 	}
 
