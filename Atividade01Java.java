@@ -8,22 +8,72 @@ public class Atividade01Java {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 
-	        int[] caloriasPrato = {180, 230, 250, 350};
-	        int[] caloriasSobremesa = {75, 110, 170, 200};
-	        int[] caloriasBebida = {20, 70, 100, 65};
+	        int[] CalPrato = {180, 230, 250, 350};
+	        int[] CalSobremesas = {75, 110, 170, 200};
+	        int[] CalBebida = {20, 70, 100, 65};
 
-	        System.out.println("Escolha o prato (1-Vegetariano, 2-Peixe, 3-Frango, 4-Carne): ");
+	        System.out.println("Escolha o prato (1-Vegetariano" + \n " 2-Peixe" + \n " 3-Frango" + \n " 4-Carne): ");
 	        int prato = scanner.nextInt();
 	        
-	        System.out.println("Escolha a sobremesa (1-Abacaxi, 2-Sorvete diet, 3-Mouse diet, 4-Mouse chocolate): ");
+	        System.out.println("Escolha a sobremesa (1.Abacaxi" + \n " 2.Sorvete diet" + \n " 3.Mouse diet" + \n " 4.Mouse chocolate): ");
 	        int sobremesa = scanner.nextInt();
 	        
-	        System.out.println("Escolha a bebida (1-Cha, 2-Suco de laranja, 3-Suco de melao, 4-Refrigerante diet): ");
+	        System.out.println("Escolha a bebida (1.Cha" + \n " 2.Suco de laranja" + \n " 3.Suco de melao" + \n " 4-Refrigerante diet): ");
 	        int bebida = scanner.nextInt();
 
-	        int totalCalorias = caloriasPrato[prato - 1] + caloriasSobremesa[sobremesa - 1] + caloriasBebida[bebida - 1];
+	        int totalCalorias = CalPrato = 0 + CalSobremesas = 0 + CalBebida = 0;
 
-	        System.out.println("A quantidade total de calorias da refeicao e: " + totalCalorias);
+	        
+        switch (prato) {
+            case 1:
+                CalPrato = 180;
+                break;
+            case 2:
+                CalPrato = 230;
+                break;
+            case 3:
+                CalPrato = 250;
+                break;
+            case 4:
+                CalPrato = 350;
+                break;
+        }
+
+        switch (sobremesa) {
+            case 1:
+                caloriasSobremesa = 75;
+                break;
+            case 2:
+                caloriasSobremesa = 110;
+                break;
+            case 3:
+                caloriasSobremesa = 170;
+                break;
+            case 4:
+                caloriasSobremesa = 200;
+                break;
+        }
+
+        switch (bebida) {
+            case 1:
+                caloriasBebida = 20;
+                break;
+            case 2:
+                caloriasBebida = 70;
+                break;
+            case 3:
+                caloriasBebida = 100;
+                break;
+            case 4:
+                caloriasBebida = 65;
+                break;
+        }
+
+        int totalCalorias = CalPrato + caloriasSobremesa + caloriasBebida;
+
+        System.out.println("Calorias totais da refeiçăo: " + totalCalorias);
+
+	}
 	    }
 	}
 
